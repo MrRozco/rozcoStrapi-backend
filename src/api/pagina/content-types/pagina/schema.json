@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paginas",
+  "info": {
+    "singularName": "pagina",
+    "pluralName": "paginas",
+    "displayName": "Paginas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Estructura": {
+      "type": "dynamiczone",
+      "components": [
+        "plano.video-componente",
+        "plano.tarjetas",
+        "plano.slider",
+        "plano.navbar",
+        "plano.logo",
+        "plano.links",
+        "plano.heroe",
+        "plano.footer",
+        "plano.cta",
+        "plano.texto-foto",
+        "plano.texto-doble-foto"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

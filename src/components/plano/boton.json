@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_plano_botons",
+  "info": {
+    "displayName": "boton"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

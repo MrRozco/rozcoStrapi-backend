@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elementos_botons",
+  "info": {
+    "displayName": "Boton"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "Texto": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_plano_video_componentes",
+  "info": {
+    "displayName": "VideoComponente"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Video": {
+      "allowedTypes": [
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

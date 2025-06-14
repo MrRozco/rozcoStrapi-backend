@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elementos_tarjetas",
+  "info": {
+    "displayName": "Tarjeta"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Texto": {
+      "type": "text"
+    },
+    "Foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

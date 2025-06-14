@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_plano_ctas",
+  "info": {
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "text"
+    },
+    "Boton": {
+      "displayName": "Boton",
+      "type": "component",
+      "repeatable": false,
+      "component": "elementos.boton"
+    },
+    "Background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

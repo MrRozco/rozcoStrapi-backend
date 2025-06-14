@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_plano_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elementos.logo"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elementos.link"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elementos.link"
+    }
+  }
+}

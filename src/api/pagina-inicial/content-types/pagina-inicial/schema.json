@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_inicials",
+  "info": {
+    "singularName": "pagina-inicial",
+    "pluralName": "pagina-inicials",
+    "displayName": "Pagina Inicial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Estructura": {
+      "type": "dynamiczone",
+      "components": [
+        "plano.heroe",
+        "plano.video-componente",
+        "plano.slider",
+        "plano.cta",
+        "plano.tarjetas"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

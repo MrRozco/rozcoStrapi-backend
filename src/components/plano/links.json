@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_plano_links",
+  "info": {
+    "displayName": "links"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

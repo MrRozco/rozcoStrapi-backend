@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_plano_texto_doble_fotos",
+  "info": {
+    "displayName": "TextoDobleFoto",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Texto": {
+      "type": "text"
+    },
+    "primeraFoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "segundaFoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "derecha": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

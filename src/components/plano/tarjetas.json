@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_plano_tarjetas",
+  "info": {
+    "displayName": "Tarjetas"
+  },
+  "options": {},
+  "attributes": {
+    "tarjeta": {
+      "displayName": "Tarjeta",
+      "type": "component",
+      "repeatable": true,
+      "component": "elementos.tarjeta"
+    }
+  }
+}
